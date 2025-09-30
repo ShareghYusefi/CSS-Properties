@@ -44,10 +44,45 @@ body {
 #oak-tree {
   width: 400px;
   height: 250px;
-  margin: 0 auto;
+  margin: 50px auto;
   background-color: blue;
   border-radius: 10px;
   background-image: url("oak-tree.webp");
   background-size: cover;
   /* background-repeat: no-repeat; */
+}
+
+/* Input Pseudo classes */
+input:invalid {
+  border-style: solid;
+  border-color: red;
+  border-width: 2px;
+}
+
+input:valid {
+  border-style: solid;
+  border-color: green;
+  border-width: 2px;
+}
+
+/* Pseudo classes apply to specified element state (such as hover) */
+.hover-affect:hover {
+  background-color: blue;
+  color: white;
+}
+
+a:link {
+  color: cadetblue;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: darkgreen;
+}
+
+a:visited {
+  color: gray;
 }
