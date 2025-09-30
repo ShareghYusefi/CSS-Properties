@@ -29,3 +29,14 @@ body {
   border: 2px dashed green;
   background-color: cyan;
 }
+
+.styled-box {
+  width: 250px;
+  padding: 15px;
+  margin: 20px auto;
+  background-color: blanchedalmond;
+  border: 2px inset purple;
+  border-radius: 15px;
+  transition: background-color 8s ease;
+  box-shadow: 5px 5px 5px black;
+}
