@@ -26,8 +26,8 @@ body {
   height: 50px;
   margin: 20px auto;
   padding: 20px;
-  border: 2px dashed green;
-  background-color: cyan;
+  border: 2px dashed rgba(0, 255, 0, 0.5);
+  background-color: hsla(0, 100%, 50%, 0.5);
 }
 
 .styled-box {
@@ -35,10 +35,10 @@ body {
   padding: 15px;
   margin: 20px auto;
   background-color: blanchedalmond;
-  border: 2px inset purple;
+  border: 2px inset cmyk(15%, 100%, 0%, 0%);
   border-radius: 15px;
   transition: background-color 8s ease;
-  box-shadow: 5px 5px 5px black;
+  box-shadow: 5px 5px 5px #9d7575;
 }
 
 #oak-tree {
